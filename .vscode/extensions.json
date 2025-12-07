@@ -7,7 +7,6 @@
         "ms-python.flake8",
         "ms-toolsai.jupyter",
         "wholroyd.jinja",
-        "batisteo.vscode-django",
         "donjayamanne.githistory",
         "eamodio.gitlens",
         "streetsidesoftware.code-spell-checker"

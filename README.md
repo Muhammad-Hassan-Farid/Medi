@@ -83,7 +83,7 @@ When you open this project in VS Code, you'll be prompted to install the recomme
 - **Install Dependencies**: Quickly install all required packages
 - **Run Flask App**: Start the Flask server
 - **Store Index to Pinecone**: Upload embeddings to Pinecone
-- **Setup Environment (Conda)**: Create conda environment
+- **Setup Conda Environment**: Shows the command to create conda environment (run manually in terminal)
 - **Run in Docker**: Build and run the app in Docker container
 
 #### 3. **Code Quality**
