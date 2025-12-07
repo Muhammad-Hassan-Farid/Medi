@@ -58,6 +58,50 @@ open up localhost:
 - Pinecone
 
 
+## VS Code Development Setup
+
+This project includes comprehensive VS Code configuration for an enhanced development experience.
+
+### Recommended Extensions
+
+When you open this project in VS Code, you'll be prompted to install the recommended extensions including:
+- Python extension with Pylance
+- Python debugger
+- Black formatter
+- Flake8 linter
+- Jinja template support
+- Git tools
+
+### Available Features
+
+#### 1. **Debugging Configurations** (F5 to start)
+- **Flask App Debug**: Debug the Flask application with automatic reload disabled
+- **Current File**: Debug any Python file currently open
+- **Store Index**: Debug the Pinecone index storage process
+
+#### 2. **Quick Tasks** (Ctrl+Shift+P → "Tasks: Run Task")
+- **Install Dependencies**: Quickly install all required packages
+- **Run Flask App**: Start the Flask server
+- **Store Index to Pinecone**: Upload embeddings to Pinecone
+- **Setup Environment (Conda)**: Create conda environment
+- **Run in Docker**: Build and run the app in Docker container
+
+#### 3. **Code Quality**
+- Auto-format on save with Black
+- Flake8 linting enabled
+- Auto-import completions
+- Type checking with Pylance
+
+### Getting Started in VS Code
+
+1. Open the project folder in VS Code
+2. Install recommended extensions when prompted
+3. Select your Python interpreter (Conda environment: `medibot`)
+4. Use `Ctrl+Shift+P` → "Tasks: Run Task" → "Install Dependencies"
+5. Create your `.env` file with API keys
+6. Press `F5` to start debugging the Flask app
+
+
 
 # AWS-CICD-Deployment-with-Github-Actions
 
